@@ -13,7 +13,7 @@ YOLO algorithms are a type of convolutional neural network (CNN) designed for re
 5. **Non-max Suppression:** To refine the predictions, YOLO uses non-max suppression to eliminate overlapping bounding boxes that are less confident in their predictions.
 6. **Loss Function:** YOLO also has a unique loss function that simultaneously optimizes class predictions, localization (bounding box coordinates), and confidence scores.
 
-![image](https://github.com/mujib2020/Yolo-V8-instance-segmentation/assets/61886262/c1f474ef-78a2-4901-9a9b-48ed869030f5)
+![image](https://github.com/mujib2020/Yolo-V8-instance-segmentation/assets/61886262/c6a70164-daaf-4d18-81c4-9e4bbce617d4)
 
 ![image](https://github.com/mujib2020/Yolo-V8-instance-segmentation/assets/61886262/aa065c5f-c661-460f-b77d-f40fea800e22)
 
