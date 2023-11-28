@@ -1,0 +1,7 @@
+path: C:/All_data_from_Box/Miscellaneous_copy/Data_Projects/Computer_Vision_And_DL/Yolo_V8/images_wood120/data_final
+train: images/train 
+val: images/val  
+
+nc: 2
+names: ['Live Knot', 'Dead Knot']
+
