@@ -6,6 +6,13 @@ YOLO (You Only Look Once) is a series of object detection algorithms that have e
 
 YOLO algorithms are a type of convolutional neural network (CNN) designed for real-time object detection. The basic working principle of YOLO is as follows:
 
+1. **Single Neural Network:** YOLO uses a single CNN to predict multiple bounding boxes and class probabilities for those boxes.
+2. **Division of Image:** The input image is divided into a grid. Each grid cell is responsible for predicting a certain number of bounding boxes.
+3. **Bounding Box Prediction:** For each grid cell, the network outputs bounding boxes and confidence scores for those boxes. The confidence reflects how sure the model is that the box contains an object and also how accurate it thinks the box is that it predicts.
+4. **Class Prediction:** Alongside confidence scores, the model also predicts the classes of the objects in each bounding box.
+5. **Non-max Suppression:** To refine the predictions, YOLO uses non-max suppression to eliminate overlapping bounding boxes that are less confident in their predictions.
+6. **Loss Function:** YOLO also has a unique loss function that simultaneously optimizes class predictions, localization (bounding box coordinates), and confidence scores.
+
 ![image](https://github.com/mujib2020/Yolo-V8-instance-segmentation/assets/61886262/c1f474ef-78a2-4901-9a9b-48ed869030f5)
 
 ![image](https://github.com/mujib2020/Yolo-V8-instance-segmentation/assets/61886262/aa065c5f-c661-460f-b77d-f40fea800e22)
